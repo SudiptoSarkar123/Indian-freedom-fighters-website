@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe1e1;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(226,255,175);
+    background: linear-gradient(266deg, rgba(226,255,175,1) 0%, rgba(178,182,16,1) 50%, rgba(255,201,125,1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+    background-color: green;
+    border: 20px groove purple;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.gallery img {
+    max-width: 500px;
+    height: 600px;
+    transition: transform 0.2s ease-in-out;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}

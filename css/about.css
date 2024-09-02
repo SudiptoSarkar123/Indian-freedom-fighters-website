@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background: rgb(163,140,104);
+    background: linear-gradient(326deg, rgba(163,140,104,1) 0%, rgba(141,47,39,1) 100%);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(175,223,255);
+    background: radial-gradient(circle, rgba(175,223,255,1) 49%, rgba(225,161,255,1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+h1 {
+    color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+p {
+    text-align: justify;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image img{
+    border-radius: 10px;
+}
